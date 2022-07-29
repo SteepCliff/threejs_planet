@@ -10,7 +10,7 @@ function App() {
       <Canvas camera={[35,35,35]}>
         <CameraController />
         <ambientLight intensity={0.07} />
-        <spotLight intensity={0.2} position={[-30, 20, -10]} castShadow={true} />
+        <spotLight intensity={0.3} position={[-30, 20, -10]} castShadow={true} />
         <Earth />
         <Cloud />
       
